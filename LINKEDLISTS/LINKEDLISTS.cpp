@@ -21,12 +21,12 @@ int main()
 			cin >> i;
 			if (i == 'a')
 			{
-				cout << "add a number:";
+				cout << "Add a number:";
 				cin >> addingdata;
 				list->adddata(addingdata);
 			}
 			else if (i == 'd') {
-				cout << "delete a number:";
+				cout << "Delete a number:";
 				cin >> deletingdata;
 				list->deldata(deletingdata);
 			}
